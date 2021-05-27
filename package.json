@@ -1,0 +1,28 @@
+{
+  "name": "anna-demo-cli",
+  "version": "1.0.0",
+  "description": "构建自己的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "anna": "bin/anna",
+    "anna-add": "bin/anna-add",
+    "anna-delete": "bin/anna-delete",
+    "anna-list": "bin/anna-list",
+    "anna-init": "bin/anna-add  bin/anna-init"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "anna",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.2"
+  }
+}
